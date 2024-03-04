@@ -35,12 +35,12 @@
             //Printing rows of asterisks
             //adding 1 to the asterisk in each row
             //until you print a row of the user-specified row width
-            for (int i = 1; i >= newRowwidth; i++)
+            for (int i = 1; i <= newRowwidth; i++)
             {
-                Console.Write("*");
+                 Console.WriteLine("");
                 for (int j = 1; j <= i; j++)
                 { 
-                    Console.WriteLine("");
+                    Console.Write("*");
                 }
             }
         }
